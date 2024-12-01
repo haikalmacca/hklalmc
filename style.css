@@ -757,6 +757,9 @@ span{
     .header {
         padding: 2rem 3%;
     }
+        .skills .skill{
+        display: none;
+    }
 
     section {
         padding: 10rem 3% 2rem;
@@ -874,13 +877,13 @@ span{
 }
 
 @media (max-width: 365px) {
-    .home-img img {
-        width: 90vw;
-    }
+
      #menu-icon {
         display: block;
-        margin-left: 190px;
+        margin-left: 170px;
     }
+
+
     .about-img img {
         width: 90vw;
     }
